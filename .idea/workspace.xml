@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48be31eb-c32f-4586-9121-54ce79ac3d4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/sim_wow_patch.yaml.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/SOFIA_HAWC_PLUS_Files.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_100GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_143GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_217GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_30GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_353GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_44GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_545GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_70GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_857GHz.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/README.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +49,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/dylan-wolf/miniconda3/envs/magnetar/bin/python",
+    "last_opened_file_path": "/home/dylan-wolf/Projects/NASA/MAGNETAR_pipeline/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +88,7 @@
       <updated>1759872500677</updated>
       <workItem from="1759872502029" duration="845000" />
       <workItem from="1760386822557" duration="13260000" />
+      <workItem from="1760484671190" duration="2308000" />
     </task>
     <servers />
   </component>

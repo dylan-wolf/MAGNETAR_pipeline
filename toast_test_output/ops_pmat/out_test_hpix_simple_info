@@ -1,0 +1,29 @@
+Data distributed over 1 processes in 1 groups
+observation 0:
+  key id
+  key name
+  key tod
+  10 total samples, 1 detectors
+  proc 0
+    sample range 0 --> 9 in 1 chunks:
+      0 --> 9
+    timestamps 0.0 --> 0.09
+    det d00:
+      pntg [-5.638e-04 5.638e-04 0.000e+00 1.000e+00] --> [1.473e-03 -6.103e-04 0.000e+00 1.000e+00]
+      0.000e+00 (0) --> 0.000e+00 (0)
+        10 good samples
+        min = 0.0000e+00, max = 0.0000e+00, mean = 0.0000e+00, rms = 0.0000e+00
+    cache common_flags:
+        min = 0.0000e+00, max = 0.0000e+00, mean = 0.0000e+00, rms = 0.0000e+00
+    cache flags_d00:
+        min = 0.0000e+00, max = 0.0000e+00, mean = 0.0000e+00, rms = 0.0000e+00
+    cache pixels_d00:
+        min = 0.0000e+00, max = 3.0000e+00, mean = 1.2000e+00, rms = 9.7980e-01
+    cache quat_d00:
+        min = -1.4733e-03, max = 1.0000e+00, mean = 2.4990e-01, rms = 4.3307e-01
+    cache signal_d00:
+        min = 0.0000e+00, max = 0.0000e+00, mean = 0.0000e+00, rms = 0.0000e+00
+    cache timestamps:
+        min = 0.0000e+00, max = 9.0000e-02, mean = 4.5000e-02, rms = 2.8723e-02
+    cache weights_d00:
+        min = 1.0000e+00, max = 1.0000e+00, mean = 1.0000e+00, rms = 0.0000e+00
