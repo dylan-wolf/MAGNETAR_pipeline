@@ -128,3 +128,14 @@ python -m pip install --no-build-isolation --use-pep517 toast-cmb
 * `CMAKE_ARGS` is the reliable way to pass flags to the project’s CMake configure step from pip.
 * `CMAKE_PREFIX_PATH` and friends ensure the conda toolchain and libs are preferred over system ones.
 * Disabling tests (`BUILD_TESTING`, `TOAST_BUILD_TESTS`) speeds up and simplifies the build.
+
+
+# Night Sky Selection
+
+The following constraints were used in the HAWC+ polarization data from SOFIA
+Spatial Constraints: All-Sky
+Observation Constraints: AOR ID 06_0119_1
+Data Product Constraints: Level 0 
+
+
+
