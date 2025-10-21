@@ -18,14 +18,22 @@ def load_l0_fits(path: str):
     print(repr(hdul[0].header))  # Primary header
     print(repr(hdul['Timestream'].header))
 
+    for name in hdul['Timestream'].columns.names:
+        if "hwp" in str(name):
+            print(name)
+        elif "HWP" in str(name):
+            print(name)
+
+
     def uniq_count(x):
         return len(np.unique(np.asarray(x)))
-
     print("fastHwpCounts uniques:", uniq_count(ts['fastHwpCounts'])) # fast encoder is inactive for this sample
     print("hwpCounts uniques:", uniq_count(ts['hwpCounts'])) # single stepped angle for this sample
     print("hwpA std, hwpB std:", np.std(ts['hwpA']), np.std(ts['hwpB'])) # constant angle for this sample
 
-    # So, we must calculate the angle for this file another way.
+    # Should expect constant s for fixed angle subscan. So, we must calculate the angle for this file another way.
+
+    # We will use the analog hwpA/hwpB mean to get the constant angel then snap to the nearest HWSPEQ.
 
     sq1 = ts["SQ1Feedback"]
     nsamp = sq1.shape[0]
@@ -48,8 +56,9 @@ def load_l0_fits(path: str):
         sq1[:, :, 96:128], # Transmission 1: Science array, orthogonal polarization
     )
 
-    print(hdul.info())
+    #print(hdul.info())
     print(ts.columns.names)
+
 
     # --- Ancillary columns (may vary by release) ---
     time = _get_first_valid(ts, ["MCETime", "TIME", "UTIME", "Timestamp"])
@@ -57,6 +66,15 @@ def load_l0_fits(path: str):
     ra   = _get_first_valid(ts, ["RA", "TELRA"])
     dec  = _get_first_valid(ts, ["DEC", "TELDEC"])
 
+    A = ts['hwpA']
+    B = ts['hwpB']
+
+    #HWPSEQ = ts['HWPSEQ']
+
+    theta_deg_raw = np.degrees(np.arctan2(B.mean(), A.mean()))
+    #nearest = min(HWPSEQ, key=lambda a: abs((a - theta_deg_raw) % 180 - 90))
+
+    #print("NEAREST: ", nearest)
 
     hdul.close()
 
