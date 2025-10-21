@@ -23,6 +23,8 @@ def load_l0_fits(path: str):
             print(name)
         elif "HWP" in str(name):
             print(name)
+        elif "Hwp" in str(name):
+            print(name)
 
 
     def uniq_count(x):
@@ -55,6 +57,13 @@ def load_l0_fits(path: str):
         sq1[:, :, 64:96], # Transmission 0: Science array, one polarization. True on sky detectors.
         sq1[:, :, 96:128], # Transmission 1: Science array, orthogonal polarization
     )
+
+    # If SOFIA provides T1 then why cant HAWC use T1: "Each array was designed to have two 32x40 subarrays, for four total detectors (R0, R1, T0, and T1), but T1 is
+    # not currently available for HAWC." p.4 HAWC+ User's Manual
+
+    # T1 is viewed as being too noisy and cannot be used. It is maintained for bookkeeping purposes.
+
+    # Data later will throw away bad channels (e.g., T1), combine R0 + T0 for polarization, and merge R0, R1, T0 for total-intensity imaging?
 
     #print(hdul.info())
     print(ts.columns.names)
