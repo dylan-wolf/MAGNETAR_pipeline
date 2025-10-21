@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48be31eb-c32f-4586-9121-54ce79ac3d4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/SOFIA_HAWC_PLUS_Files.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_100GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_143GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_217GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_30GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_353GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_44GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_545GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_70GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/PLCKI_C291.603+27.050_857GHz.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/README.txt" beforeDir="false" />
+    <list default="true" id="48be31eb-c32f-4586-9121-54ce79ac3d4b" name="Changes" comment="Minor updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dylan-wolf"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dylan-wolf/MAGNETAR_pipeline.git",
+    "accountId": "bf3cf646-909e-4a29-ad1a-ae53badc0a3c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -41,30 +42,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.scratch.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/dylan-wolf/Projects/NASA/MAGNETAR_pipeline/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.l0_reader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dylan-wolf/Projects/NASA/MAGNETAR_pipeline&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -89,13 +91,37 @@
       <workItem from="1759872502029" duration="845000" />
       <workItem from="1760386822557" duration="13260000" />
       <workItem from="1760484671190" duration="2308000" />
+      <workItem from="1760844364131" duration="2876000" />
+      <workItem from="1761003930497" duration="5280000" />
     </task>
+    <task id="LOCAL-00001" summary="Minor updates">
+      <option name="closed" value="true" />
+      <created>1761006459384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761006459384</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Minor updates">
+      <option name="closed" value="true" />
+      <created>1761013840103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761013840103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Minor updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor updates" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MAGNETAR_pipeline$l0_reader.coverage" NAME="l0_reader Coverage Results" MODIFIED="1761012391147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/l0" />
     <SUITE FILE_PATH="coverage/MAGNETAR_pipeline$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1760411127614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>
