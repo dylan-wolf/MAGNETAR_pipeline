@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48be31eb-c32f-4586-9121-54ce79ac3d4b" name="Changes" comment="Minor updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l0/l0_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/l0/l0_reader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dylan-wolf"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dylan-wolf&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dylan-wolf/MAGNETAR_pipeline.git",
-    "accountId": "bf3cf646-909e-4a29-ad1a-ae53badc0a3c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dylan-wolf/MAGNETAR_pipeline.git&quot;,
+    &quot;accountId&quot;: &quot;bf3cf646-909e-4a29-ad1a-ae53badc0a3c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -93,6 +94,7 @@
       <workItem from="1760484671190" duration="2308000" />
       <workItem from="1760844364131" duration="2876000" />
       <workItem from="1761003930497" duration="5280000" />
+      <workItem from="1761092023176" duration="3458000" />
     </task>
     <task id="LOCAL-00001" summary="Minor updates">
       <option name="closed" value="true" />
@@ -121,7 +123,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Minor updates" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MAGNETAR_pipeline$l0_reader.coverage" NAME="l0_reader Coverage Results" MODIFIED="1761012391147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/l0" />
+    <SUITE FILE_PATH="coverage/MAGNETAR_pipeline$l0_reader.coverage" NAME="l0_reader Coverage Results" MODIFIED="1761096030107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/l0" />
     <SUITE FILE_PATH="coverage/MAGNETAR_pipeline$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1760411127614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>
